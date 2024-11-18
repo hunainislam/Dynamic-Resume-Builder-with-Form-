@@ -49,7 +49,7 @@ resumeFormElement === null || resumeFormElement === void 0 ? void 0 : resumeForm
         li.textContent = skill.trim();
         skillsList.appendChild(li);
     });
-    document.querySelector('#work-info').textContent = workInput;
+    document.querySelector('#work-infom').textContent = workInput;
 
     // Hide the form after submission
     resumeForm.style.display = 'none';
